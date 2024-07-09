@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.77.6",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.3",
+    "vue-loader": "^16.8.3",
+    "webpack-livereload-plugin": "^1.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.22.7",
+    "vue": "^3.4.31"
+  }
+}
